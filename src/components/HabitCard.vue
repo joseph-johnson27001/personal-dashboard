@@ -42,7 +42,7 @@ export default {
 <style scoped>
 .habit-card {
   border-radius: 10px;
-  padding: 30px 10px;
+  padding: 25px 10px;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -53,6 +53,10 @@ export default {
   transition: background-color 0.3s;
   cursor: pointer;
   border: 1px solid white;
+}
+
+h3 {
+  font-weight: 100;
 }
 
 .left {

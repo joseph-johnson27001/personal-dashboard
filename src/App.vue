@@ -102,7 +102,6 @@ body {
 }
 
 .container {
-  max-width: 1200px;
   background: linear-gradient(to right, #e1f5fe, #b3e5fc);
   border: 1px solid #ccc;
   min-height: 100vh;
