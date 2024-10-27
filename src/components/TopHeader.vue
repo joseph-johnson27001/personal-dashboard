@@ -17,11 +17,7 @@ export default {
 <style scoped>
 .header {
   text-align: center;
-  margin-bottom: 40px;
-  background: linear-gradient(to right, #e1f5fe, #b3e5fc);
   padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 h1 {

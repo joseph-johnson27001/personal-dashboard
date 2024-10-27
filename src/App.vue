@@ -100,14 +100,16 @@ export default {
 
 body {
   margin: 0;
+  background-color: #f4f8fb; /* Soft background for the entire page */
 }
 
 .container {
   max-width: 1200px;
+  background: linear-gradient(to right, #e1f5fe, #b3e5fc);
+
   margin: 0 auto;
   padding: 20px;
   background-color: white;
-  border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
