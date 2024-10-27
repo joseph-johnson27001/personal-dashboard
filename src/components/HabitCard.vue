@@ -6,7 +6,7 @@
   >
     <div class="left">
       <h3>{{ name }}</h3>
-      <p class="streak">🔥 {{ streak }}</p>
+      <p class="streak"><i class="fas fa-fire"></i> {{ streak }}</p>
     </div>
     <div class="right">
       <p>{{ score }}/{{ maxScore }}</p>
@@ -42,7 +42,7 @@ export default {
 <style scoped>
 .habit-card {
   border-radius: 10px;
-  padding: 40px 10px;
+  padding: 30px 10px;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
@@ -52,6 +52,7 @@ export default {
   max-width: 500px;
   transition: background-color 0.3s;
   cursor: pointer;
+  border: 1px solid white;
 }
 
 .left {
@@ -66,8 +67,15 @@ export default {
 
 .streak {
   position: absolute;
-  top: 0px;
+  top: -5px;
   right: 10px;
-  font-size: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.streak i {
+  margin-right: 4px; /* Adds space between icon and streak number */
+  color: orange; /* Change icon color to orange */
 }
 </style>

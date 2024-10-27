@@ -98,7 +98,7 @@ export default {
 
 body {
   margin: 0 !important;
-  background-color: #f4f8fb; /* Soft background for the entire page */
+  background-color: #f4f8fb;
 }
 
 .container {
@@ -109,7 +109,7 @@ body {
   margin: 0 auto;
   padding: 20px;
   background-color: white;
-  border-radius: 8px;
+  border-top: none;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
