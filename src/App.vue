@@ -90,23 +90,22 @@ export default {
 };
 </script>
 
-<style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+<style>
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
 body {
-  margin: 0;
+  margin: 0 !important;
   background-color: #f4f8fb; /* Soft background for the entire page */
 }
 
 .container {
   max-width: 1200px;
   background: linear-gradient(to right, #e1f5fe, #b3e5fc);
-
+  border: 1px solid #ccc;
+  min-height: 100vh;
   margin: 0 auto;
   padding: 20px;
   background-color: white;
