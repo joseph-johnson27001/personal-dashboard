@@ -6,10 +6,10 @@
   >
     <div class="left">
       <h3>{{ name }}</h3>
-      <p>🔥 Streak: {{ streak }}</p>
+      <p class="streak">🔥 {{ streak }}</p>
     </div>
     <div class="right">
-      <p>Score: {{ score }}/{{ maxScore }}</p>
+      <p>{{ score }}/{{ maxScore }}</p>
     </div>
   </div>
 </template>
@@ -42,11 +42,12 @@ export default {
 <style scoped>
 .habit-card {
   border-radius: 10px;
-  padding: 20px;
+  padding: 40px 10px;
   margin: 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   width: 100%;
   max-width: 500px;
   transition: background-color 0.3s;
@@ -61,5 +62,12 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.streak {
+  position: absolute;
+  top: 0px;
+  right: 10px;
+  font-size: 1rem;
 }
 </style>
